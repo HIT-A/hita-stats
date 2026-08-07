@@ -13,8 +13,8 @@
 
 ## 格式
 
-- daily/YYYY/MM/YYYY-MM-DD.json：当日 DAU（按 app）与事件计数（含版本/工具维度）
+- daily/YYYY/MM/YYYY-MM-DD.json：当日 DAU（按 app）与事件计数（含版本/工具维度），附平台/版本/错误/来源分布
 - weekly/YYYY-Www.json：ISO 周累计
-- 字段示例：{ "date": "2026-08-08", "dau": { "hita-android": 12 }, "events": { "app_foreground": { "count": 34, "by_version": { "2.5.5": 30 } } } }
+- 字段示例：{ "date": "2026-08-08", "dau": { "hita-android": 12 }, "events": { "app_foreground": { "count": 34, "by_version": { "2.5.5": 30 } } }, "platforms": { "android": 12 } }
 
-_last updated: 2026-08-07T19:19:22Z UTC_
+_last updated: 2026-08-07T19:51:12Z UTC_
