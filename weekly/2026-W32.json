@@ -6,6 +6,18 @@
   },
   "events": {
     "app_foreground": {
+      "count": 4,
+      "by_version": {
+        "2.5.5": 4
+      }
+    },
+    "empty_room_search_succeeded": {
+      "count": 1,
+      "by_version": {
+        "2.5.5": 1
+      }
+    },
+    "notice_shown": {
       "count": 1,
       "by_version": {
         "2.5.5": 1
@@ -13,10 +25,10 @@
     }
   },
   "platforms": {
-    "android": 1
+    "android": 6
   },
   "versions": {
-    "2.5.5": 1
+    "2.5.5": 6
   },
   "errors": {},
   "sources": {}
