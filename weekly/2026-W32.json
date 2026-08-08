@@ -6,9 +6,10 @@
   },
   "events": {
     "app_foreground": {
-      "count": 4,
+      "count": 18,
       "by_version": {
-        "2.5.5": 4
+        "2.5.5": 17,
+        "probe-1.0": 1
       }
     },
     "empty_room_search_succeeded": {
@@ -17,18 +18,25 @@
         "2.5.5": 1
       }
     },
-    "notice_shown": {
+    "notice_action_tapped": {
       "count": 1,
       "by_version": {
         "2.5.5": 1
       }
+    },
+    "notice_shown": {
+      "count": 4,
+      "by_version": {
+        "2.5.5": 4
+      }
     }
   },
   "platforms": {
-    "android": 6
+    "android": 24
   },
   "versions": {
-    "2.5.5": 6
+    "2.5.5": 23,
+    "probe-1.0": 1
   },
   "errors": {},
   "sources": {}
