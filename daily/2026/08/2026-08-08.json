@@ -1,9 +1,34 @@
 {
   "date": "2026-08-08",
-  "dau": {},
-  "events": {},
-  "platforms": {},
-  "versions": {},
+  "dau": {
+    "hita-android": 1
+  },
+  "events": {
+    "app_foreground": {
+      "count": 3,
+      "by_version": {
+        "2.5.5": 3
+      }
+    },
+    "empty_room_search_succeeded": {
+      "count": 1,
+      "by_version": {
+        "2.5.5": 1
+      }
+    },
+    "notice_shown": {
+      "count": 1,
+      "by_version": {
+        "2.5.5": 1
+      }
+    }
+  },
+  "platforms": {
+    "android": 5
+  },
+  "versions": {
+    "2.5.5": 5
+  },
   "errors": {},
   "sources": {}
 }
