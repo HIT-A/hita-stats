@@ -2,14 +2,17 @@
   "week": "2026-W32",
   "range": "2026-08-03 ~ 2026-08-09",
   "dau": {
-    "hita-android": 1
+    "hita-android": 1,
+    "hita-aura": 1,
+    "hita-ios": 1
   },
   "events": {
     "app_foreground": {
-      "count": 18,
+      "count": 22,
       "by_version": {
-        "2.5.5": 17,
-        "probe-1.0": 1
+        "1.2": 2,
+        "2.5.5": 18,
+        "probe-1.0": 2
       }
     },
     "empty_room_search_succeeded": {
@@ -19,24 +22,26 @@
       }
     },
     "notice_action_tapped": {
-      "count": 1,
+      "count": 2,
       "by_version": {
-        "2.5.5": 1
+        "2.5.5": 2
       }
     },
     "notice_shown": {
-      "count": 4,
+      "count": 7,
       "by_version": {
-        "2.5.5": 4
+        "2.5.5": 7
       }
     }
   },
   "platforms": {
-    "android": 24
+    "android": 29,
+    "ios": 3
   },
   "versions": {
-    "2.5.5": 23,
-    "probe-1.0": 1
+    "1.2": 2,
+    "2.5.5": 28,
+    "probe-1.0": 2
   },
   "errors": {},
   "sources": {}
