@@ -5,29 +5,59 @@
     "hita-android": 1
   },
   "events": {
-    "app_foreground": {
-      "count": 28,
-      "by_version": {
-        "2.5.7": 2,
-        "2.6.0": 26
-      }
-    },
-    "credit_summary_viewed": {
+    "ai_chat_started": {
       "count": 1,
       "by_version": {
         "2.6.0": 1
       }
     },
+    "ai_tool_invoked": {
+      "count": 22,
+      "by_version": {
+        "2.6.0": 22
+      },
+      "by_tool": {
+        "crawl_page": 15,
+        "rag_search": 3,
+        "search_external_resource": 1,
+        "web_search": 3
+      }
+    },
+    "app_foreground": {
+      "count": 103,
+      "by_version": {
+        "2.5.7": 4,
+        "2.6.0": 99
+      }
+    },
+    "credit_summary_viewed": {
+      "count": 3,
+      "by_version": {
+        "2.6.0": 3
+      }
+    },
     "empty_room_search_started": {
+      "count": 3,
+      "by_version": {
+        "2.6.0": 3
+      }
+    },
+    "empty_room_search_succeeded": {
       "count": 1,
       "by_version": {
         "2.6.0": 1
       }
     },
     "exams_viewed": {
-      "count": 1,
+      "count": 3,
       "by_version": {
-        "2.6.0": 1
+        "2.6.0": 3
+      }
+    },
+    "scores_viewed": {
+      "count": 6,
+      "by_version": {
+        "2.6.0": 6
       }
     },
     "timetable_import_failed": {
@@ -37,23 +67,29 @@
       }
     },
     "timetable_import_started": {
-      "count": 3,
+      "count": 4,
       "by_version": {
-        "2.6.0": 3
+        "2.6.0": 4
+      }
+    },
+    "timetable_import_succeeded": {
+      "count": 1,
+      "by_version": {
+        "2.6.0": 1
       }
     }
   },
   "platforms": {
-    "android": 37
+    "android": 150
   },
   "versions": {
-    "2.5.7": 2,
-    "2.6.0": 35
+    "2.5.7": 4,
+    "2.6.0": 146
   },
   "errors": {
     "unknown": 3
   },
   "sources": {
-    "eas": 6
+    "eas": 8
   }
 }
