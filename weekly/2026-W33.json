@@ -6,58 +6,59 @@
   },
   "events": {
     "ai_chat_started": {
-      "count": 1,
+      "count": 3,
       "by_version": {
-        "2.6.0": 1
+        "2.6.0": 3
       }
     },
     "ai_tool_invoked": {
-      "count": 22,
+      "count": 23,
       "by_version": {
-        "2.6.0": 22
+        "2.6.0": 23
       },
       "by_tool": {
         "crawl_page": 15,
         "rag_search": 3,
+        "search_empty_classroom": 1,
         "search_external_resource": 1,
         "web_search": 3
       }
     },
     "app_foreground": {
-      "count": 103,
+      "count": 145,
       "by_version": {
         "2.5.7": 4,
-        "2.6.0": 99
+        "2.6.0": 141
       }
     },
     "credit_summary_viewed": {
-      "count": 3,
+      "count": 4,
       "by_version": {
-        "2.6.0": 3
+        "2.6.0": 4
       }
     },
     "empty_room_search_started": {
-      "count": 3,
-      "by_version": {
-        "2.6.0": 3
-      }
-    },
-    "empty_room_search_succeeded": {
-      "count": 1,
-      "by_version": {
-        "2.6.0": 1
-      }
-    },
-    "exams_viewed": {
-      "count": 3,
-      "by_version": {
-        "2.6.0": 3
-      }
-    },
-    "scores_viewed": {
       "count": 6,
       "by_version": {
         "2.6.0": 6
+      }
+    },
+    "empty_room_search_succeeded": {
+      "count": 3,
+      "by_version": {
+        "2.6.0": 3
+      }
+    },
+    "exams_viewed": {
+      "count": 7,
+      "by_version": {
+        "2.6.0": 7
+      }
+    },
+    "scores_viewed": {
+      "count": 12,
+      "by_version": {
+        "2.6.0": 12
       }
     },
     "timetable_import_failed": {
@@ -67,29 +68,29 @@
       }
     },
     "timetable_import_started": {
-      "count": 4,
+      "count": 5,
       "by_version": {
-        "2.6.0": 4
+        "2.6.0": 5
       }
     },
     "timetable_import_succeeded": {
-      "count": 1,
+      "count": 2,
       "by_version": {
-        "2.6.0": 1
+        "2.6.0": 2
       }
     }
   },
   "platforms": {
-    "android": 150
+    "android": 213
   },
   "versions": {
     "2.5.7": 4,
-    "2.6.0": 146
+    "2.6.0": 209
   },
   "errors": {
     "unknown": 3
   },
   "sources": {
-    "eas": 8
+    "eas": 10
   }
 }
