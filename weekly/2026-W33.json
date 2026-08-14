@@ -25,10 +25,10 @@
       }
     },
     "app_foreground": {
-      "count": 145,
+      "count": 178,
       "by_version": {
         "2.5.7": 4,
-        "2.6.0": 141
+        "2.6.0": 174
       }
     },
     "credit_summary_viewed": {
@@ -56,9 +56,9 @@
       }
     },
     "scores_viewed": {
-      "count": 12,
+      "count": 13,
       "by_version": {
-        "2.6.0": 12
+        "2.6.0": 13
       }
     },
     "timetable_import_failed": {
@@ -81,11 +81,11 @@
     }
   },
   "platforms": {
-    "android": 213
+    "android": 247
   },
   "versions": {
     "2.5.7": 4,
-    "2.6.0": 209
+    "2.6.0": 243
   },
   "errors": {
     "unknown": 3
