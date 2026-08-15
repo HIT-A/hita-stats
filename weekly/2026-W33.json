@@ -6,9 +6,9 @@
   },
   "events": {
     "ai_chat_started": {
-      "count": 3,
+      "count": 4,
       "by_version": {
-        "2.6.0": 3
+        "2.6.0": 4
       }
     },
     "ai_tool_invoked": {
@@ -25,22 +25,22 @@
       }
     },
     "app_foreground": {
-      "count": 178,
+      "count": 230,
       "by_version": {
         "2.5.7": 4,
-        "2.6.0": 174
+        "2.6.0": 226
       }
     },
     "credit_summary_viewed": {
-      "count": 4,
-      "by_version": {
-        "2.6.0": 4
-      }
-    },
-    "empty_room_search_started": {
       "count": 6,
       "by_version": {
         "2.6.0": 6
+      }
+    },
+    "empty_room_search_started": {
+      "count": 7,
+      "by_version": {
+        "2.6.0": 7
       }
     },
     "empty_room_search_succeeded": {
@@ -50,15 +50,15 @@
       }
     },
     "exams_viewed": {
-      "count": 7,
+      "count": 8,
       "by_version": {
-        "2.6.0": 7
+        "2.6.0": 8
       }
     },
     "scores_viewed": {
-      "count": 13,
+      "count": 15,
       "by_version": {
-        "2.6.0": 13
+        "2.6.0": 15
       }
     },
     "timetable_import_failed": {
@@ -81,11 +81,11 @@
     }
   },
   "platforms": {
-    "android": 247
+    "android": 306
   },
   "versions": {
     "2.5.7": 4,
-    "2.6.0": 243
+    "2.6.0": 302
   },
   "errors": {
     "unknown": 3
