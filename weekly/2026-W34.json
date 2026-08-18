@@ -1,10 +1,81 @@
 {
   "week": "2026-W34",
   "range": "2026-08-17 ~ 2026-08-23",
-  "dau": {},
-  "events": {},
-  "platforms": {},
-  "versions": {},
-  "errors": {},
-  "sources": {}
+  "dau": {
+    "hita-android": 1
+  },
+  "events": {
+    "ai_chat_started": {
+      "count": 1,
+      "by_version": {
+        "2.6.0": 1
+      }
+    },
+    "app_foreground": {
+      "count": 77,
+      "by_version": {
+        "2.6.0": 77
+      }
+    },
+    "credit_summary_viewed": {
+      "count": 5,
+      "by_version": {
+        "2.6.0": 5
+      }
+    },
+    "empty_room_search_started": {
+      "count": 3,
+      "by_version": {
+        "2.6.0": 3
+      }
+    },
+    "empty_room_search_succeeded": {
+      "count": 2,
+      "by_version": {
+        "2.6.0": 2
+      }
+    },
+    "exams_viewed": {
+      "count": 3,
+      "by_version": {
+        "2.6.0": 3
+      }
+    },
+    "scores_viewed": {
+      "count": 12,
+      "by_version": {
+        "2.6.0": 12
+      }
+    },
+    "timetable_import_failed": {
+      "count": 3,
+      "by_version": {
+        "2.6.0": 3
+      }
+    },
+    "timetable_import_started": {
+      "count": 4,
+      "by_version": {
+        "2.6.0": 4
+      }
+    },
+    "timetable_import_succeeded": {
+      "count": 1,
+      "by_version": {
+        "2.6.0": 1
+      }
+    }
+  },
+  "platforms": {
+    "android": 111
+  },
+  "versions": {
+    "2.6.0": 111
+  },
+  "errors": {
+    "unknown": 3
+  },
+  "sources": {
+    "eas": 8
+  }
 }
