@@ -12,70 +12,70 @@
       }
     },
     "app_foreground": {
-      "count": 145,
+      "count": 252,
       "by_version": {
-        "2.6.0": 145
+        "2.6.0": 252
       }
     },
     "credit_summary_viewed": {
-      "count": 6,
+      "count": 7,
       "by_version": {
-        "2.6.0": 6
+        "2.6.0": 7
       }
     },
     "empty_room_search_started": {
-      "count": 3,
+      "count": 4,
       "by_version": {
-        "2.6.0": 3
+        "2.6.0": 4
       }
     },
     "empty_room_search_succeeded": {
-      "count": 2,
+      "count": 4,
       "by_version": {
-        "2.6.0": 2
+        "2.6.0": 4
       }
     },
     "exams_viewed": {
-      "count": 8,
-      "by_version": {
-        "2.6.0": 8
-      }
-    },
-    "scores_viewed": {
-      "count": 17,
-      "by_version": {
-        "2.6.0": 17
-      }
-    },
-    "timetable_import_failed": {
-      "count": 3,
-      "by_version": {
-        "2.6.0": 3
-      }
-    },
-    "timetable_import_started": {
       "count": 10,
       "by_version": {
         "2.6.0": 10
       }
     },
-    "timetable_import_succeeded": {
-      "count": 7,
+    "scores_viewed": {
+      "count": 23,
       "by_version": {
-        "2.6.0": 7
+        "2.6.0": 23
+      }
+    },
+    "timetable_import_failed": {
+      "count": 4,
+      "by_version": {
+        "2.6.0": 4
+      }
+    },
+    "timetable_import_started": {
+      "count": 15,
+      "by_version": {
+        "2.6.0": 15
+      }
+    },
+    "timetable_import_succeeded": {
+      "count": 11,
+      "by_version": {
+        "2.6.0": 11
       }
     }
   },
   "platforms": {
-    "android": 202
+    "android": 331
   },
   "versions": {
-    "2.6.0": 202
+    "2.6.0": 331
   },
   "errors": {
-    "unknown": 3
+    "unknown": 4
   },
   "sources": {
-    "eas": 20
+    "eas": 30
   }
 }
