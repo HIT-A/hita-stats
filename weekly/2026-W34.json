@@ -12,21 +12,21 @@
       }
     },
     "app_foreground": {
-      "count": 252,
+      "count": 338,
       "by_version": {
-        "2.6.0": 252
+        "2.6.0": 338
       }
     },
     "credit_summary_viewed": {
-      "count": 7,
+      "count": 9,
       "by_version": {
-        "2.6.0": 7
+        "2.6.0": 9
       }
     },
     "empty_room_search_started": {
-      "count": 4,
+      "count": 5,
       "by_version": {
-        "2.6.0": 4
+        "2.6.0": 5
       }
     },
     "empty_room_search_succeeded": {
@@ -42,21 +42,21 @@
       }
     },
     "scores_viewed": {
-      "count": 23,
+      "count": 24,
       "by_version": {
-        "2.6.0": 23
+        "2.6.0": 24
       }
     },
     "timetable_import_failed": {
-      "count": 4,
+      "count": 5,
       "by_version": {
-        "2.6.0": 4
+        "2.6.0": 5
       }
     },
     "timetable_import_started": {
-      "count": 15,
+      "count": 16,
       "by_version": {
-        "2.6.0": 15
+        "2.6.0": 16
       }
     },
     "timetable_import_succeeded": {
@@ -67,15 +67,15 @@
     }
   },
   "platforms": {
-    "android": 331
+    "android": 423
   },
   "versions": {
-    "2.6.0": 331
+    "2.6.0": 423
   },
   "errors": {
-    "unknown": 4
+    "unknown": 5
   },
   "sources": {
-    "eas": 30
+    "eas": 32
   }
 }
