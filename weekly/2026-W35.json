@@ -6,76 +6,76 @@
   },
   "events": {
     "app_foreground": {
-      "count": 299,
+      "count": 465,
       "by_version": {
-        "2.6.0": 299
+        "2.6.0": 465
       }
     },
     "credit_summary_viewed": {
-      "count": 7,
-      "by_version": {
-        "2.6.0": 7
-      }
-    },
-    "empty_room_search_failed": {
-      "count": 2,
-      "by_version": {
-        "2.6.0": 2
-      }
-    },
-    "empty_room_search_started": {
-      "count": 2,
-      "by_version": {
-        "2.6.0": 2
-      }
-    },
-    "empty_room_search_succeeded": {
-      "count": 1,
-      "by_version": {
-        "2.6.0": 1
-      }
-    },
-    "exams_viewed": {
-      "count": 12,
-      "by_version": {
-        "2.6.0": 12
-      }
-    },
-    "scores_viewed": {
-      "count": 15,
-      "by_version": {
-        "2.6.0": 15
-      }
-    },
-    "timetable_import_failed": {
-      "count": 2,
-      "by_version": {
-        "2.6.0": 2
-      }
-    },
-    "timetable_import_started": {
       "count": 13,
       "by_version": {
         "2.6.0": 13
       }
     },
-    "timetable_import_succeeded": {
-      "count": 11,
+    "empty_room_search_failed": {
+      "count": 3,
       "by_version": {
-        "2.6.0": 11
+        "2.6.0": 3
+      }
+    },
+    "empty_room_search_started": {
+      "count": 3,
+      "by_version": {
+        "2.6.0": 3
+      }
+    },
+    "empty_room_search_succeeded": {
+      "count": 2,
+      "by_version": {
+        "2.6.0": 2
+      }
+    },
+    "exams_viewed": {
+      "count": 17,
+      "by_version": {
+        "2.6.0": 17
+      }
+    },
+    "scores_viewed": {
+      "count": 21,
+      "by_version": {
+        "2.6.0": 21
+      }
+    },
+    "timetable_import_failed": {
+      "count": 10,
+      "by_version": {
+        "2.6.0": 10
+      }
+    },
+    "timetable_import_started": {
+      "count": 28,
+      "by_version": {
+        "2.6.0": 28
+      }
+    },
+    "timetable_import_succeeded": {
+      "count": 18,
+      "by_version": {
+        "2.6.0": 18
       }
     }
   },
   "platforms": {
-    "android": 364
+    "android": 580
   },
   "versions": {
-    "2.6.0": 364
+    "2.6.0": 580
   },
   "errors": {
-    "unknown": 4
+    "unknown": 13
   },
   "sources": {
-    "eas": 26
+    "eas": 56
   }
 }
