@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-29",
+  "dau": {
+    "hita-android": 1
+  },
+  "events": {
+    "app_foreground": {
+      "count": 4,
+      "by_version": {
+        "2.6.2": 2,
+        "2.6.4": 2
+      }
+    }
+  },
+  "platforms": {
+    "android": 4
+  },
+  "versions": {
+    "2.6.2": 2,
+    "2.6.4": 2
+  },
+  "errors": {},
+  "sources": {}
+}
