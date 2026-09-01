@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-01",
+  "dau": {
+    "hita-android": 1
+  },
+  "events": {
+    "app_foreground": {
+      "count": 29,
+      "by_version": {
+        "2.6.0": 1,
+        "2.6.2": 1,
+        "2.6.4": 27
+      }
+    },
+    "credit_summary_viewed": {
+      "count": 2,
+      "by_version": {
+        "2.6.4": 2
+      }
+    },
+    "empty_room_search_started": {
+      "count": 1,
+      "by_version": {
+        "2.6.4": 1
+      }
+    },
+    "exams_viewed": {
+      "count": 1,
+      "by_version": {
+        "2.6.4": 1
+      }
+    },
+    "scores_viewed": {
+      "count": 1,
+      "by_version": {
+        "2.6.4": 1
+      }
+    }
+  },
+  "platforms": {
+    "android": 34
+  },
+  "versions": {
+    "2.6.0": 1,
+    "2.6.2": 1,
+    "2.6.4": 32
+  },
+  "errors": {},
+  "sources": {}
+}
