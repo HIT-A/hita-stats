@@ -17,4 +17,4 @@
 - weekly/YYYY-Www.json：ISO 周累计
 - 字段示例：{ "date": "2026-08-08", "dau": { "hita-android": 12 }, "events": { "app_foreground": { "count": 34, "by_version": { "2.5.5": 30 } } }, "platforms": { "android": 12 } }
 
-_last updated: 2026-09-04T00:10:53Z UTC_
+_last updated: 2026-09-05T00:10:53Z UTC_
