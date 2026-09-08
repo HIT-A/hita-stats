@@ -5,33 +5,140 @@
     "hita-android": 1
   },
   "events": {
-    "app_foreground": {
-      "count": 24,
+    "ai_chat_started": {
+      "count": 14,
       "by_version": {
         "2.6.0": 1,
-        "2.6.4": 8,
-        "2.6.5": 2,
-        "2.7.0": 4,
+        "2.7.1": 13
+      }
+    },
+    "ai_tool_invoked": {
+      "count": 9,
+      "by_version": {
         "2.7.1": 9
+      },
+      "by_tool": {
+        "get_course_detail": 1,
+        "get_timetable": 4,
+        "rag_search": 3,
+        "search_course": 1
+      }
+    },
+    "app_foreground": {
+      "count": 2335,
+      "by_version": {
+        "2.6.0": 117,
+        "2.6.2": 74,
+        "2.6.4": 688,
+        "2.6.5": 225,
+        "2.6.6": 40,
+        "2.7.0": 179,
+        "2.7.1": 1012
+      }
+    },
+    "credit_summary_viewed": {
+      "count": 57,
+      "by_version": {
+        "2.6.0": 2,
+        "2.6.2": 1,
+        "2.6.4": 15,
+        "2.6.5": 4,
+        "2.7.0": 3,
+        "2.7.1": 32
+      }
+    },
+    "empty_room_search_failed": {
+      "count": 13,
+      "by_version": {
+        "2.7.1": 13
+      }
+    },
+    "empty_room_search_started": {
+      "count": 60,
+      "by_version": {
+        "2.6.0": 1,
+        "2.6.2": 1,
+        "2.6.4": 11,
+        "2.6.5": 4,
+        "2.7.1": 43
+      }
+    },
+    "empty_room_search_succeeded": {
+      "count": 112,
+      "by_version": {
+        "2.6.0": 1,
+        "2.6.4": 17,
+        "2.6.5": 17,
+        "2.7.1": 77
+      }
+    },
+    "exams_viewed": {
+      "count": 39,
+      "by_version": {
+        "2.6.0": 4,
+        "2.6.4": 10,
+        "2.6.5": 1,
+        "2.7.0": 1,
+        "2.7.1": 23
       }
     },
     "scores_viewed": {
-      "count": 1,
+      "count": 72,
       "by_version": {
-        "2.7.1": 1
+        "2.6.0": 9,
+        "2.6.4": 7,
+        "2.6.5": 2,
+        "2.7.0": 4,
+        "2.7.1": 50
+      }
+    },
+    "timetable_import_failed": {
+      "count": 39,
+      "by_version": {
+        "2.6.2": 17,
+        "2.6.4": 9,
+        "2.7.1": 13
+      }
+    },
+    "timetable_import_started": {
+      "count": 123,
+      "by_version": {
+        "2.6.0": 1,
+        "2.6.2": 21,
+        "2.6.4": 30,
+        "2.6.5": 1,
+        "2.7.0": 4,
+        "2.7.1": 66
+      }
+    },
+    "timetable_import_succeeded": {
+      "count": 84,
+      "by_version": {
+        "2.6.0": 1,
+        "2.6.2": 6,
+        "2.6.4": 21,
+        "2.6.5": 1,
+        "2.7.0": 4,
+        "2.7.1": 51
       }
     }
   },
   "platforms": {
-    "android": 25
+    "android": 2957
   },
   "versions": {
-    "2.6.0": 1,
-    "2.6.4": 8,
-    "2.6.5": 2,
-    "2.7.0": 4,
-    "2.7.1": 10
+    "2.6.0": 137,
+    "2.6.2": 120,
+    "2.6.4": 808,
+    "2.6.5": 255,
+    "2.6.6": 40,
+    "2.7.0": 195,
+    "2.7.1": 1402
   },
-  "errors": {},
-  "sources": {}
+  "errors": {
+    "unknown": 52
+  },
+  "sources": {
+    "eas": 246
+  }
 }
