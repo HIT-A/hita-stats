@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-09",
+  "dau": {
+    "hita-android": 1
+  },
+  "events": {
+    "ai_chat_started": {
+      "count": 1,
+      "by_version": {
+        "2.7.1": 1
+      }
+    },
+    "app_foreground": {
+      "count": 21,
+      "by_version": {
+        "2.6.0": 1,
+        "2.6.2": 1,
+        "2.6.4": 5,
+        "2.6.5": 2,
+        "2.7.1": 12
+      }
+    },
+    "credit_summary_viewed": {
+      "count": 1,
+      "by_version": {
+        "2.7.1": 1
+      }
+    },
+    "exams_viewed": {
+      "count": 3,
+      "by_version": {
+        "2.7.1": 3
+      }
+    },
+    "scores_viewed": {
+      "count": 3,
+      "by_version": {
+        "2.7.1": 3
+      }
+    },
+    "timetable_import_started": {
+      "count": 1,
+      "by_version": {
+        "2.7.1": 1
+      }
+    },
+    "timetable_import_succeeded": {
+      "count": 1,
+      "by_version": {
+        "2.7.1": 1
+      }
+    }
+  },
+  "platforms": {
+    "android": 31
+  },
+  "versions": {
+    "2.6.0": 1,
+    "2.6.2": 1,
+    "2.6.4": 5,
+    "2.6.5": 2,
+    "2.7.1": 22
+  },
+  "errors": {},
+  "sources": {
+    "eas": 2
+  }
+}
