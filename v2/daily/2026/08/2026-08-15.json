@@ -1,9 +1,9 @@
 {
   "apps": {},
   "coverage": "No production v2 client observations yet; legacy receipt-day statistics remain separate.",
-  "data_as_of": "2026-09-09T17:16:57.208317227Z",
+  "data_as_of": "2026-09-09T17:21:02.426240557Z",
   "date": "2026-08-15",
-  "generated_at": "2026-09-09T17:16:57.615301785Z",
+  "generated_at": "2026-09-09T17:26:57.596925663Z",
   "metric_version": "foreground_installs_v2",
   "period_end": "2026-08-15",
   "period_start": "2026-08-15",
@@ -13,7 +13,7 @@
     "suppressed_values": "null_not_zero"
   },
   "schema_version": 2,
-  "snapshot_id": "9e850ec52e55ac4166ee08c645e948403f2d60691f1804dc5c8e1c37d206411a",
+  "snapshot_id": "d78ae98f6169dac542e6fd1dbc55bdc3fe87c44dd2e5370a4d9c970cb4719918",
   "status": "partial",
   "timezone": "Asia/Shanghai"
 }
