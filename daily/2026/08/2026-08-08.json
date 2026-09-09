@@ -1,42 +1,24 @@
 {
   "date": "2026-08-08",
   "dau": {
-    "hita-android": 1
+    "hita-android": null,
+    "hita-aura": null,
+    "hita-ios": null
   },
-  "events": {
-    "app_foreground": {
-      "count": 17,
-      "by_version": {
-        "2.5.5": 16,
-        "probe-1.0": 1
-      }
-    },
-    "empty_room_search_succeeded": {
-      "count": 1,
-      "by_version": {
-        "2.5.5": 1
-      }
-    },
-    "notice_action_tapped": {
-      "count": 1,
-      "by_version": {
-        "2.5.5": 1
-      }
-    },
-    "notice_shown": {
-      "count": 4,
-      "by_version": {
-        "2.5.5": 4
-      }
-    }
+  "meta": {
+    "schema_version": 1,
+    "metric_version": "legacy_receipt_installs_v2",
+    "timezone": "UTC",
+    "time_basis": "received_at",
+    "status": "final",
+    "invalid_records": 0,
+    "duplicate_records": 0,
+    "missing_event_ids": 0,
+    "snapshot_id": "edf78d39a8d29efac6e56e6d108bf2e612e73f51beb2b2740490e286374ed8e0"
   },
-  "platforms": {
-    "android": 23
-  },
-  "versions": {
-    "2.5.5": 22,
-    "probe-1.0": 1
-  },
-  "errors": {},
-  "sources": {}
+  "privacy": {
+    "breakdowns": "private_only",
+    "minimum_installs": 20,
+    "suppressed_values": "null_not_zero"
+  }
 }

@@ -1,153 +1,26 @@
 {
-  "week": "2026-W37",
-  "range": "2026-09-07 ~ 2026-09-13",
   "dau": {
-    "hita-android": 1
+    "hita-android": 530
   },
-  "events": {
-    "ai_chat_started": {
-      "count": 41,
-      "by_version": {
-        "2.6.0": 1,
-        "2.6.4": 1,
-        "2.7.0": 1,
-        "2.7.1": 38
-      }
-    },
-    "ai_tool_invoked": {
-      "count": 25,
-      "by_version": {
-        "2.7.1": 25
-      },
-      "by_tool": {
-        "add_activity": 11,
-        "get_course_detail": 1,
-        "get_timetable": 7,
-        "rag_search": 4,
-        "search_course": 2
-      }
-    },
-    "app_foreground": {
-      "count": 4442,
-      "by_version": {
-        "2.6.0": 225,
-        "2.6.2": 136,
-        "2.6.4": 1281,
-        "2.6.5": 452,
-        "2.6.6": 91,
-        "2.7.0": 331,
-        "2.7.1": 1926
-      }
-    },
-    "credit_summary_viewed": {
-      "count": 95,
-      "by_version": {
-        "2.6.0": 3,
-        "2.6.2": 1,
-        "2.6.4": 25,
-        "2.6.5": 6,
-        "2.7.0": 5,
-        "2.7.1": 55
-      }
-    },
-    "empty_room_search_failed": {
-      "count": 13,
-      "by_version": {
-        "2.7.1": 13
-      }
-    },
-    "empty_room_search_started": {
-      "count": 84,
-      "by_version": {
-        "2.6.0": 1,
-        "2.6.2": 1,
-        "2.6.4": 13,
-        "2.6.5": 5,
-        "2.7.0": 1,
-        "2.7.1": 63
-      }
-    },
-    "empty_room_search_succeeded": {
-      "count": 143,
-      "by_version": {
-        "2.6.0": 1,
-        "2.6.4": 21,
-        "2.6.5": 19,
-        "2.7.1": 102
-      }
-    },
-    "exams_viewed": {
-      "count": 72,
-      "by_version": {
-        "2.6.0": 4,
-        "2.6.2": 1,
-        "2.6.4": 18,
-        "2.6.5": 4,
-        "2.7.0": 3,
-        "2.7.1": 42
-      }
-    },
-    "scores_viewed": {
-      "count": 116,
-      "by_version": {
-        "2.6.0": 11,
-        "2.6.2": 1,
-        "2.6.4": 13,
-        "2.6.5": 4,
-        "2.6.6": 1,
-        "2.7.0": 6,
-        "2.7.1": 80
-      }
-    },
-    "timetable_import_failed": {
-      "count": 63,
-      "by_version": {
-        "2.6.2": 17,
-        "2.6.4": 12,
-        "2.7.1": 34
-      }
-    },
-    "timetable_import_started": {
-      "count": 189,
-      "by_version": {
-        "2.6.0": 1,
-        "2.6.2": 21,
-        "2.6.4": 46,
-        "2.6.5": 5,
-        "2.6.6": 1,
-        "2.7.0": 5,
-        "2.7.1": 110
-      }
-    },
-    "timetable_import_succeeded": {
-      "count": 126,
-      "by_version": {
-        "2.6.0": 1,
-        "2.6.2": 6,
-        "2.6.4": 34,
-        "2.6.5": 5,
-        "2.6.6": 1,
-        "2.7.0": 5,
-        "2.7.1": 74
-      }
-    }
+  "meta": {
+    "schema_version": 1,
+    "metric_version": "legacy_receipt_installs_v2",
+    "timezone": "UTC",
+    "time_basis": "received_at",
+    "status": "provisional",
+    "invalid_records": 0,
+    "duplicate_records": 0,
+    "missing_event_ids": 0,
+    "snapshot_id": "edf78d39a8d29efac6e56e6d108bf2e612e73f51beb2b2740490e286374ed8e0"
   },
-  "platforms": {
-    "android": 5409
+  "privacy": {
+    "breakdowns": "private_only",
+    "minimum_installs": 20,
+    "suppressed_values": "null_not_zero"
   },
-  "versions": {
-    "2.6.0": 248,
-    "2.6.2": 184,
-    "2.6.4": 1464,
-    "2.6.5": 500,
-    "2.6.6": 94,
-    "2.7.0": 357,
-    "2.7.1": 2562
-  },
-  "errors": {
-    "unknown": 76
-  },
-  "sources": {
-    "eas": 378
+  "range": "2026-09-07 ~ 2026-09-13",
+  "week": "2026-W37",
+  "weekly_active_installs": {
+    "hita-android": 530
   }
 }

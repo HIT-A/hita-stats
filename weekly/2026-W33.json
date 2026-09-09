@@ -1,96 +1,26 @@
 {
-  "week": "2026-W33",
-  "range": "2026-08-10 ~ 2026-08-16",
   "dau": {
-    "hita-android": 1
+    "hita-android": 64
   },
-  "events": {
-    "ai_chat_started": {
-      "count": 4,
-      "by_version": {
-        "2.6.0": 4
-      }
-    },
-    "ai_tool_invoked": {
-      "count": 23,
-      "by_version": {
-        "2.6.0": 23
-      },
-      "by_tool": {
-        "crawl_page": 15,
-        "rag_search": 3,
-        "search_empty_classroom": 1,
-        "search_external_resource": 1,
-        "web_search": 3
-      }
-    },
-    "app_foreground": {
-      "count": 282,
-      "by_version": {
-        "2.5.7": 4,
-        "2.6.0": 278
-      }
-    },
-    "credit_summary_viewed": {
-      "count": 9,
-      "by_version": {
-        "2.6.0": 9
-      }
-    },
-    "empty_room_search_started": {
-      "count": 8,
-      "by_version": {
-        "2.6.0": 8
-      }
-    },
-    "empty_room_search_succeeded": {
-      "count": 3,
-      "by_version": {
-        "2.6.0": 3
-      }
-    },
-    "exams_viewed": {
-      "count": 13,
-      "by_version": {
-        "2.6.0": 13
-      }
-    },
-    "scores_viewed": {
-      "count": 20,
-      "by_version": {
-        "2.6.0": 20
-      }
-    },
-    "timetable_import_failed": {
-      "count": 3,
-      "by_version": {
-        "2.6.0": 3
-      }
-    },
-    "timetable_import_started": {
-      "count": 6,
-      "by_version": {
-        "2.6.0": 6
-      }
-    },
-    "timetable_import_succeeded": {
-      "count": 3,
-      "by_version": {
-        "2.6.0": 3
-      }
-    }
+  "meta": {
+    "schema_version": 1,
+    "metric_version": "legacy_receipt_installs_v2",
+    "timezone": "UTC",
+    "time_basis": "received_at",
+    "status": "final",
+    "invalid_records": 0,
+    "duplicate_records": 0,
+    "missing_event_ids": 0,
+    "snapshot_id": "edf78d39a8d29efac6e56e6d108bf2e612e73f51beb2b2740490e286374ed8e0"
   },
-  "platforms": {
-    "android": 374
+  "privacy": {
+    "breakdowns": "private_only",
+    "minimum_installs": 20,
+    "suppressed_values": "null_not_zero"
   },
-  "versions": {
-    "2.5.7": 4,
-    "2.6.0": 370
-  },
-  "errors": {
-    "unknown": 3
-  },
-  "sources": {
-    "eas": 12
+  "range": "2026-08-10 ~ 2026-08-16",
+  "week": "2026-W33",
+  "weekly_active_installs": {
+    "hita-android": 64
   }
 }

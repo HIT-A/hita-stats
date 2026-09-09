@@ -1,20 +1,22 @@
 # HITA 使用统计（公开聚合）
 
-> 数据由 hita-api 每日自动生成并推送；本仓库只包含**聚合计数**。
+本仓库由 data-backend / hita-api 生成，仅包含聚合计数。
 
-## 隐私声明
+## 指标与修正
 
-- 不含学号、姓名、installation_id 等任何个人明细；
-- 原始事件数据（JSONL）永不进入本仓库，仅存于私有服务器。
+- daily/ 为完整 UTC 接收日的旧口径活跃安装与事件计数，metric_version=legacy_receipt_installs_v2。
+- 日活跃按 (app_id, installation_id) 去重；weekly_active_installs 按 ISO 周取安装集合并集。周文件中的 dau 是兼容别名。
+- 活跃安装不等于自然人；旧 app_foreground 在进程创建时记录，不能直接叫新版前台 DAU。
+- 私有看板保留事件、版本、错误分析；公开文件仅提供应用级安装聚合，小于 20 的组显示 null（不是零），不附加可用于反推的小组总量或维度分组。
+- 已修复历史 DAU 固定为 1、凌晨只发布当天片段的问题；日报与周报从同一份私有数据回算。
+- status=partial 表示源文件缺失、无可验证记录或存在坏行/缺失去重键；provisional 表示区间未结束，不能当作完整零流量。
 
-## 更新频率
+## 发布与隐私
 
-- 每天约 UTC 00:10 生成当日聚合（daily）与本周累计（weekly）。
+- 定期检查所有已结束日期并补发遗漏，更新通过一个 Git 提交同时可见。
+- 每份数据带来源、时区、口径、质量与 snapshot_id。原始事件、安装/会话标识、账号、学号和用户内容不进入本仓库。
+- v2/daily/ 使用北京时间合格前台活动口径；支持 v2 的客户端上线前显示 partial，不把旧数据改称新版 DAU。滚动 7 / 30 日为安装集合并集，统计开关关闭、后台及测试流量不计入。
+- v2 日结束后再等待 7 天迟到窗口才 final；此前 provisional。公开看板和私有分析使用同一个事务快照。
+- 历史 Git 提交中的旧细分数据不会因本次更新自动删除；当前发布不再生成这些细分。
 
-## 格式
-
-- daily/YYYY/MM/YYYY-MM-DD.json：当日 DAU（按 app）与事件计数（含版本/工具维度），附平台/版本/错误/来源分布
-- weekly/YYYY-Www.json：ISO 周累计
-- 字段示例：{ "date": "2026-08-08", "dau": { "hita-android": 12 }, "events": { "app_foreground": { "count": 34, "by_version": { "2.5.5": 30 } } }, "platforms": { "android": 12 } }
-
-_last updated: 2026-09-09T00:10:53Z UTC_
+本次统计截至 2026-09-08 UTC 日结束；生成于 2026-09-09T16:57:08Z。
