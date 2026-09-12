@@ -1,6 +1,7 @@
 {
+  "date": "2026-09-11",
   "dau": {
-    "hita-android": 91
+    "hita-android": 442
   },
   "meta": {
     "schema_version": 1,
@@ -17,10 +18,5 @@
     "breakdowns": "private_only",
     "minimum_installs": 20,
     "suppressed_values": "null_not_zero"
-  },
-  "range": "2026-08-17 ~ 2026-08-23",
-  "week": "2026-W34",
-  "weekly_active_installs": {
-    "hita-android": 91
   }
 }
