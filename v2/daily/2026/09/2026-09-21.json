@@ -11,7 +11,7 @@
   "coverage": "production v2 clients with analytics enabled; installations, not people; legacy and service traffic excluded from active metrics",
   "data_as_of": "2026-09-23T18:04:56.494092299Z",
   "date": "2026-09-21",
-  "generated_at": "2026-09-23T18:05:08.14558306Z",
+  "generated_at": "2026-09-23T18:15:08.082600505Z",
   "metric_version": "foreground_installs_v2",
   "period_end": "2026-09-21",
   "period_start": "2026-09-21",
@@ -21,7 +21,7 @@
     "suppressed_values": "null_not_zero"
   },
   "schema_version": 2,
-  "snapshot_id": "11cfe0c914c9b5af203aecf101bbcbe5716182fa708bc5f4f344bfc9dab211b0",
+  "snapshot_id": "de6caa89d516911be8f17d1b0efed5ec5baae1ef7aec688ffd02a676f2743094",
   "status": "provisional",
   "timezone": "Asia/Shanghai"
 }
