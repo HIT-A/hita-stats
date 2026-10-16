@@ -1,0 +1,27 @@
+{
+  "apps": {
+    "hita-android": {
+      "dau": 350,
+      "rolling_30d_active_installs": 569,
+      "rolling_7d_active_installs": 497,
+      "sessions_started": 660,
+      "status": "available"
+    }
+  },
+  "coverage": "production v2 clients with analytics enabled; installations, not people; legacy and service traffic excluded from active metrics",
+  "data_as_of": "2026-10-16T16:00:25.158448771Z",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T16:01:05.184184952Z",
+  "metric_version": "foreground_installs_v2",
+  "period_end": "2026-10-16",
+  "period_start": "2026-10-16",
+  "privacy": {
+    "breakdowns": "private_only",
+    "minimum_installs": 20,
+    "suppressed_values": "null_not_zero"
+  },
+  "schema_version": 2,
+  "snapshot_id": "d03a579ebba6d6fde41748bb6c2d09a7268eb319d08f91e72e880a83dcca9ccd",
+  "status": "provisional",
+  "timezone": "Asia/Shanghai"
+}
