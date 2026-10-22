@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-21",
+  "dau": {
+    "hita-android": 289
+  },
+  "meta": {
+    "schema_version": 1,
+    "metric_version": "legacy_receipt_installs_v2",
+    "timezone": "UTC",
+    "time_basis": "received_at",
+    "status": "final",
+    "invalid_records": 0,
+    "duplicate_records": 0,
+    "missing_event_ids": 0,
+    "snapshot_id": "f2d2560849734c1f28f21ed64bd31d5baee0c59d3076a60b46025025180a81b0"
+  },
+  "privacy": {
+    "breakdowns": "private_only",
+    "minimum_installs": 20,
+    "suppressed_values": "null_not_zero"
+  }
+}
