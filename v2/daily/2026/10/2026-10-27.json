@@ -9,9 +9,9 @@
     }
   },
   "coverage": "production v2 clients with analytics enabled; installations, not people; legacy and service traffic excluded from active metrics",
-  "data_as_of": "2026-11-10T03:30:28.256112084Z",
+  "data_as_of": "2026-11-10T16:01:03.469793092Z",
   "date": "2026-10-27",
-  "generated_at": "2026-11-10T03:31:12.302443234Z",
+  "generated_at": "2026-11-10T16:01:12.239949495Z",
   "metric_version": "foreground_installs_v2",
   "period_end": "2026-10-27",
   "period_start": "2026-10-27",
@@ -21,7 +21,7 @@
     "suppressed_values": "null_not_zero"
   },
   "schema_version": 2,
-  "snapshot_id": "57742fc3129a46687aa01b6455c5a3c3ed84f366f9c9ab6be33ef60cd8873e2f",
+  "snapshot_id": "125e79fbf2c3d980b24d2bb63f34bb6a3f0967086437c11e01cdc30715fe7d36",
   "status": "final",
   "timezone": "Asia/Shanghai"
 }
