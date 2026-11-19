@@ -1,6 +1,6 @@
 {
   "dau": {
-    "hita-android": 235
+    "hita-android": 252
   },
   "meta": {
     "schema_version": 1,
@@ -11,7 +11,7 @@
     "invalid_records": 0,
     "duplicate_records": 0,
     "missing_event_ids": 0,
-    "snapshot_id": "9b496bb755c36f68f23fee88b68a1431b646c39c47b3dfc42161afcac55854f4"
+    "snapshot_id": "5174ed0345b3daa38f888dfed3193bc8674a58d181f51a3bc181ac00093e0f71"
   },
   "privacy": {
     "breakdowns": "private_only",
@@ -21,6 +21,6 @@
   "range": "2026-11-16 ~ 2026-11-22",
   "week": "2026-W47",
   "weekly_active_installs": {
-    "hita-android": 235
+    "hita-android": 252
   }
 }
